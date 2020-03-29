@@ -9,7 +9,15 @@ body {
 }
 
 .section_padding {
-    padding: 100px 0;
+    padding: 50px 0 !important;
+}
+
+.custom-container {
+    margin: 100px 0;
+}
+
+.blue_text {
+    color: #2186eb;
 }
 
 /* header start */
@@ -39,6 +47,8 @@ body {
     font-weight: 700;
     font-size: 18px;
     color: #ffffff !important;
+    display: inline-block;
+    margin: 5px 0;
     border-radius: 50px;
     padding: 6px 14px !important;
     transition: .5s;
@@ -96,6 +106,10 @@ body {
 
 /* slider start */
 
+.carousel-indicators-custom li {
+    width: 15px;
+    height: 15px;
+}
 
 .slider_content {
     margin-top: 300px;
@@ -116,6 +130,7 @@ body {
     width: 300px;
 }
 
+
 .slider_img_wrapper-2 {
     width: 250px;
 }
@@ -123,3 +138,54 @@ body {
 
 /* slider end */
 /* banner end */
+/* how it works start*/
+.how_works {
+    margin-top: -250px;
+    padding-bottom: 50px;
+}
+
+.step_content {
+    padding: 30px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.step_content:hover {
+    transform: translateY(-10px);
+    box-shadow: 1px 0 20px #00000033;
+}
+
+.step_content h1 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.step_img {
+    width: 60px;
+}
+
+/* how it works  end*/
+/* how it works video section start*/
+.video_section {
+    background-image: url(../img/section-bottom-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+}
+
+.section_heading {
+    text-align: center;
+}
+
+.section_heading h1 {
+    font-size: 48px;
+    color: #334e68;
+}
+
+.section_heading p {
+    color: #627d98;
+    margin: 50px 0;
+}
+
+
+/* how it works video section  end*/

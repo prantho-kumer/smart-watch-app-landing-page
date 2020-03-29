@@ -39,7 +39,7 @@
                 <div class="col-3 logo_wrapper">
                     <a class="navbar-brand " href="#"><img class="img-fluid" src="img/logo/logo.png" alt="app logo"></a>
                 </div>
-                <nav class="col-lg-4 navbar navbar-expand-lg navbar-light justify-content-end">
+                <nav class="col-lg-4 navbar navbar-custom navbar-expand-lg navbar-light justify-content-end">
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +47,7 @@
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto menu">
+                        <ul class="navbar-nav ml-auto menu main_menu">
                             <span class="d-lg-none d-block">
                                 <li class="nav-item">
                                     <a class="nav-link active" href="#">How it works</a>
@@ -59,7 +59,7 @@
                                     <a class="nav-link" href="#">Pricing</a>
                                 </li>
                             </span>
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a class="nav-link access_btn" id="logIn" href="#">Log in <span
                                         class="sr-only">(current)</span></a>
                             </li>
@@ -80,12 +80,16 @@
             <div class="row justify-content-center">
                 <!-- slider -->
                 <div class="col-md-8">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide carousel" data-ride="carousel">
+                        <ol class="carousel-indicators carousel-indicators-custom">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        </ol>
                         <div class="carousel-inner">
                             <!-- single -->
                             <div class="carousel-item carousel-item-custom active">
                                 <div class="row justify-content-center">
-                                    <div class="col-md-8">
+                                    <div class="col-lg-8">
                                         <div class="slider_content text-center">
                                             <h1>Smart Watch App Landing Page</h1>
                                             <div class="slider_img_wrapper">
@@ -98,12 +102,12 @@
                             <!-- single -->
                             <!-- single -->
                             <div class="carousel-item carousel-item-custom">
-                                <div class="row justify-content-center">
-                                    <div class="col-md-8">
+                                <div class=" row justify-content-center">
+                                    <div class="col-lg-8">
                                         <div class="slider_content text-center">
-                                            <h1>Smart Watch App Landing Page</h1>
-                                            <div class="slider_img_wrapper">
-                                                <img class="img-fluid" src="img/slide-img.png" alt="Watch">
+                                            <h1>Smart Watch App</h1>
+                                            <div class="slider_img_wrapper slider_img_wrapper-2">
+                                                <img class="img-fluid" src="img/slide-img-2.png" alt="Watch">
                                             </div>
                                         </div>
                                     </div>
@@ -111,16 +115,6 @@
                             </div>
                             <!-- single -->
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                            data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                            data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
                     </div>
                 </div>
                 <!-- slider -->

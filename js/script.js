@@ -53,7 +53,8 @@ $(document).ready(function () {
     $('.app_gallery_slider').slick({
         dots: true,
         infinite: true,
-        speed: 300,
+        speed: 800,
+        autoplay: true,
         slidesToShow: 5,
         slidesToScroll: 1,
         responsive: [{

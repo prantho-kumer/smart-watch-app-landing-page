@@ -1,5 +1,8 @@
  /* Extra small devices (portrait phones, less than 576px) */
  @media (max-width: 575.98px) {
+     .section_padding {
+         padding: 15px 0 !important;
+     }
 
      /* header */
 
@@ -24,6 +27,7 @@
      .logo_wrapper {
          position: absolute;
          top: 10px;
+         z-index: 1;
      }
 
 
@@ -47,16 +51,68 @@
      .carousel-indicators-custom {
          bottom: -60px;
      }
+
+     /* how it works  start*/
+     .step_content h1 {
+         font-size: 27px;
+     }
+
+     /* how it works */
+     .how_works {
+         padding-bottom: 15px;
+     }
+
+     /* how it works  end*/
+     /* how it works video section start*/
+     .how_works {
+         margin-top: -300px;
+     }
+
+     .section_heading h1 {
+         font-size: 44px;
+     }
+
+     .section_heading p {
+         margin: 30px 0;
+     }
+
+     /* how it works video section end*/
+     /* testimonial */
+     .client_review_icon {
+         top: 25px;
+         left: -32px;
+         width: 25px;
+         height: 25px;
+     }
+
+     #testimonial_indicators {
+         display: block;
+         text-align: center;
+         position: relative;
+         top: -10px;
+         left: 0;
+     }
+
+     /* testimonial */
+     /* slick slider */
+     .slick-slide {
+         margin: 0;
+     }
+
+     /* the parent */
+     .slick-list {
+         margin: 0;
+     }
+
+     /* slick slider */
+
  }
 
- /* how it works  start*/
- .step_content h1 {
-     font-size: 27px;
- }
-
- /* how it works  end*/
  /* Small devices (landscape phones, 576px and up) */
  @media (min-width: 576px) and (max-width: 767.98px) {
+     .section_padding {
+         padding: 20px 0 !important;
+     }
 
      /* header */
 
@@ -80,7 +136,8 @@
 
      .logo_wrapper {
          position: absolute;
-         top: 20px;
+         top: 5px;
+         z-index: 1;
      }
 
 
@@ -110,6 +167,10 @@
      }
 
      /* how it works  start*/
+     .how_works {
+         padding-bottom: 20px;
+     }
+
      .step_content {
          text-align: center;
          padding: 20px;
@@ -125,10 +186,32 @@
      }
 
      /* how it works  end*/
+     /* how it works video section start*/
+     .how_works {
+         margin-top: -300px;
+     }
+
+     .section_heading h1 {
+         font-size: 44px;
+     }
+
+     .section_heading p {
+         margin: 30px 0;
+     }
+
+     /* how it works video section end*/
+     /* testimonial */
+     #testimonial_indicators {
+         top: -40px;
+     }
+
  }
 
  /* Medium devices (tablets, 768px and up) */
  @media (min-width: 768px) and (max-width: 991.98px) {
+     .section_padding {
+         padding: 30px 0 !important;
+     }
 
      /* header */
 
@@ -154,7 +237,8 @@
 
      .logo_wrapper {
          position: absolute;
-         top: 20px;
+         top: 5px;
+         z-index: 1;
      }
 
 
@@ -181,6 +265,11 @@
      }
 
      /* how it works  start*/
+     /* how it works */
+     .how_works {
+         padding-bottom: 30px;
+     }
+
      .step_content {
          padding: 15px;
      }

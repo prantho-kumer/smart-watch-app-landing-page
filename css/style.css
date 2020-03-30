@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #627d98;
@@ -20,13 +24,34 @@ body {
     color: #2186eb;
 }
 
+.row_margin {
+    margin-top: 50px;
+}
+
 /* header start */
 .header {
-    position: relative;
+    position: sticky;
+    top: 0;
     z-index: 99999;
     padding-top: 10px;
     padding-bottom: 15px;
+
 }
+
+.sticky {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: rgb(58, 231, 225);
+    background: linear-gradient(320deg, rgba(58, 231, 225, 1) 0%, rgba(33, 134, 235, 1) 100%);
+}
+
+/* @keyframes sticky {
+    100% {
+        background-color: #29a7e8;
+
+    }
+} */
 
 .menu_wrapper {
     display: flex;
@@ -173,6 +198,10 @@ body {
     background-position: bottom right;
 }
 
+.video_wrapper {
+    box-shadow: 1px 0 15px #1b1b1b;
+}
+
 .section_heading {
     text-align: center;
 }
@@ -189,3 +218,76 @@ body {
 
 
 /* how it works video section  end*/
+/* testimonial start */
+.testimonial {
+    background-image: url(../img/section-top-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+
+.testimonial_slider {}
+
+.client_review {}
+
+.testimonial_slider {
+    margin-top: 30px;
+}
+
+.profile_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.client_review_icon {
+
+    background-image: url(../img/testimonial-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: -70px;
+    width: 45px;
+    height: 45px;
+
+}
+
+#testimonial_indicators {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -100px;
+    left: -50px;
+}
+
+/* the slides */
+.slick-slide {
+    margin: 0 20px;
+}
+
+/* the parent */
+.slick-list {
+    margin: 0 -20px;
+}
+
+.app_gallery_slider div img {
+    position: relative;
+    z-index: 2 !important;
+    margin: auto;
+    box-shadow: 1px 0 20px #00000033;
+    margin: 20px 0px;
+    border-radius: 15px;
+}
+
+#tes_prev {
+    margin-right: 5px;
+}
+
+#tes_next {
+    margin-left: 5px;
+}
+
+/* testimonial end*/

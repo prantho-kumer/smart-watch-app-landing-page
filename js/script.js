@@ -86,7 +86,19 @@ $(document).ready(function () {
         ]
     });
 
-
+    // collapse
+    $("#collapseBtnOne").click(function () {
+        $(".collapse_icon-1").toggleClass("rotate");
+    });
+    $("#collapseBtnTwo").click(function () {
+        $(".collapse_icon-2").toggleClass("rotate");
+    });
+    $("#collapseBtnThree").click(function () {
+        $(".collapse_icon-3").toggleClass("rotate");
+    });
+    $("#collapseBtnFour").click(function () {
+        $(".collapse_icon-4").toggleClass("rotate");
+    });
 
 
 

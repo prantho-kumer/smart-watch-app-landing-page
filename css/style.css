@@ -226,9 +226,6 @@ body {
     background-position: top left;
 }
 
-.testimonial_slider {}
-
-.client_review {}
 
 .testimonial_slider {
     margin-top: 30px;
@@ -291,3 +288,122 @@ body {
 }
 
 /* testimonial end*/
+/* faq start */
+.faq {
+    background-image: url(../img/section-bottom-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+}
+
+.btn-link-custom {
+    color: #627d98 !important;
+
+}
+
+.btn-link-custom:hover,
+.btn-link-custom:focus {
+    text-decoration: none;
+    color: #2186eb !important;
+
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.card-custom {
+    border: none;
+    margin: 10px 0;
+    box-shadow: 0px 0px 15px #dfdfdf;
+
+}
+
+.card-custom .card-header {
+    background-color: white;
+    border: 0;
+}
+
+.faq_img {
+    width: 300px;
+    margin: auto;
+}
+
+
+
+/* faq end */
+/* newsletter start */
+.newsletter {
+
+    background: url(../img/newsletter-left-bg.png) 1% top no-repeat,
+        url(../img/newsletter-right-bg.png) 99% bottom no-repeat;
+    background-size: 25%,
+        25%;
+    background-color: #2186eb;
+}
+
+.newsletter_title {
+    text-shadow: 0px 0px 2px #095097;
+}
+
+.newsletter_form {
+    position: absolute;
+}
+
+.newsletter_prepend {
+
+    font-size: 30px;
+    color: #2186eb;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+}
+
+
+.newsletter_input {
+    border: none;
+    min-height: 50px;
+}
+
+.newsletter_append {
+    padding: 0 1px;
+    border: 0;
+    background-color: white;
+    border-radius: 50px;
+
+}
+
+.newsletter_button {
+    border: 2px solid white;
+    background-color: #2186eb;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 52px;
+    transition: .5s;
+}
+
+.newsletter_button:hover {
+    background-color: white;
+    color: #2186eb;
+    border-color: #2186eb !important;
+}
+
+.newsletter_button:focus,
+.newsletter_input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.newsletter_input::placeholder,
+.newsletter_input {
+    color: #2186eb !important;
+
+}
+
+.newsletter_icon li a {
+    font-size: 26px;
+    color: white;
+    margin: 0 8px;
+}
+
+/* newsletter end */

@@ -203,6 +203,7 @@ body {
 }
 
 .section_heading {
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -407,3 +408,166 @@ body {
 }
 
 /* newsletter end */
+/* pricing plan */
+.price_card {
+    min-height: 620px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 0 20px #00000033;
+    transition: .5s;
+
+}
+
+.price_card:hover {
+    transform: scale(1.02) translateY(-10px);
+}
+
+.font_bold {
+    font-weight: 700;
+}
+
+.price_card_title {
+
+    font-weight: 700 !important;
+    font-size: 14px;
+    color: #2185e9;
+    background-color: #e6f6ff;
+    display: inline-block;
+    padding: 7px 16px;
+    margin: 30px 0;
+    border-radius: 50px;
+}
+
+.price_plan_divider {
+    background-color: #e6efff;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.plan_price {
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0;
+}
+
+.plan_details {
+    margin: 30px 0;
+}
+
+
+
+.plan_table {
+    color: #627d98;
+    width: 150px;
+    margin: auto;
+}
+
+.plan_table td {
+    padding: 5px 5px;
+    border: none;
+    display: table-cell;
+}
+
+.plan_price_btn {
+    padding: 0 30px;
+    margin: 30px 0;
+}
+
+.plan_price_btn a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #2186eb;
+    border: 2px solid #2186eb;
+    display: block;
+    padding: 11px 0;
+    border-radius: 50px;
+    transition: ease-in-out .5s;
+}
+
+.plan_price_btn a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2186eb;
+    border-color: #2186eb;
+}
+
+/* for professional */
+.professional_card {
+    background-color: #2186eb;
+    box-shadow: 1px 0 20px #2186eb;
+
+
+}
+
+.professional_card_title {
+    color: #2185e9;
+    background-color: #e6f6ff;
+
+
+}
+
+.professional_card_table,
+.professional_plan_subtxt {
+    color: #ffffff !important;
+}
+
+.professional_plan_btn a {
+    color: #2186eb;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.professional_plan_btn a:hover {
+    border-color: #ffffff;
+}
+
+/* for professional */
+
+
+/* pricing plan */
+/* blog start */
+.blog {
+    background-image: url(../img/section-bottom-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom right;
+}
+
+.blog_card {
+
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    box-shadow: 1px 0 20px #00000033;
+    border: none;
+    border-radius: 10px;
+}
+
+.blog_title {
+    margin: 15px 0;
+}
+
+.blog_title a {
+    color: #2186eb;
+}
+
+.blog_all_btn {
+    color: white;
+    background-color: #2186eb;
+    border: 2px solid #2186eb;
+    padding: 10px 46px;
+    font-size: 18px;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.blog_all_btn:hover {
+    text-decoration: none;
+    background-color: white;
+    color: #2186eb;
+    border-color: #2186eb;
+}
+
+
+/* blog end */

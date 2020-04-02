@@ -13,7 +13,7 @@ body {
 }
 
 .section_padding {
-    padding: 50px 0 !important;
+    padding: 80px 0 !important;
 }
 
 .custom-container {
@@ -82,7 +82,7 @@ body {
 .menu li a:hover {
     color: #2186eb !important;
     background-color: #ffffff;
-    transform: translate(5px);
+    transform: translate(3px);
 }
 
 .access_btn {
@@ -571,3 +571,104 @@ body {
 
 
 /* blog end */
+/* contact */
+.contact {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.contact_subtitle {
+    font-size: 24px;
+}
+
+.contact_form_email {
+    position: relative;
+}
+
+.contact_select_issue {
+    position: relative;
+}
+
+.valid-tooltip-custom {
+    right: 0 !important;
+}
+
+.contact_form_email {
+    position: relative;
+
+}
+
+.contact_email_prepend_wrapper {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    z-index: 1;
+}
+
+.contact_email_prepend {
+
+    font-size: 30px;
+    color: #2186eb;
+    background-color: transparent;
+    border: none;
+}
+
+.contact_input {
+    height: 50px;
+    color: #2186eb;
+
+    border: 2px solid #2186eb;
+    border-radius: 50px !important;
+    background-color: transparent;
+    padding: 7px 16px;
+    min-width: 300px;
+}
+
+.contact_email {
+    position: absolute;
+    z-index: 1;
+    padding-left: 50px;
+}
+
+.contact_email::placeholder {
+    color: #2186eb;
+}
+
+.contact_email:focus,
+.contact_email:active {
+    background-color: transparent !important;
+}
+
+/* select style */
+.contact_select_issue select,
+.contact_select_issue select:focus {
+    background: #ffffff !important;
+    color: #2186eb;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+
+.contact_select_issue:after {
+    font-family: FontAwesome;
+    content: '\f0dd';
+    font-size: 28px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    color: #2186eb;
+    pointer-events: none;
+}
+
+.contact_select_issue select::-ms-expand {
+    display: none;
+}
+
+/* select style */
+
+
+/* contact */

@@ -1,7 +1,7 @@
  /* Extra small devices (portrait phones, less than 576px) */
  @media (max-width: 575.98px) {
      .section_padding {
-         padding: 15px 0 !important;
+         padding: 30px 0 !important;
      }
 
      .row_margin {
@@ -133,6 +133,16 @@
      }
 
      /* pricing plan */
+     /* contact */
+     .contact {
+         padding-top: 30px;
+     }
+
+     .contact_subtitle {
+         font-size: 22px;
+     }
+
+     /* contact */
 
 
  }
@@ -140,7 +150,7 @@
  /* Small devices (landscape phones, 576px and up) */
  @media (min-width: 576px) and (max-width: 767.98px) {
      .section_padding {
-         padding: 20px 0 !important;
+         padding: 40px 0 !important;
      }
 
      .row_margin {
@@ -252,6 +262,12 @@
      }
 
      /* pricing plan */
+     /* contact */
+     .contact {
+         padding-top: 40px;
+     }
+
+     /* contact */
 
 
 
@@ -260,7 +276,7 @@
  /* Medium devices (tablets, 768px and up) */
  @media (min-width: 768px) and (max-width: 991.98px) {
      .section_padding {
-         padding: 30px 0 !important;
+         padding: 50px 0 !important;
      }
 
      .row_margin {
@@ -378,6 +394,13 @@
      }
 
      /* blog */
+     /* contact */
+     .contact {
+         padding-top: 50px;
+     }
+
+
+     /* contact */
 
  }
 

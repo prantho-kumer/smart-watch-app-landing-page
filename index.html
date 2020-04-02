@@ -926,6 +926,91 @@
 
     </section>
     <!-- /   blog -->
+    <!-- contact -->
+    <section class="contact">
+        <div class="container">
+            <!-- section heading -->
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-8 ">
+                    <div class="section_heading">
+                        <h1 class="heading">Contact <span class="blue_text">us</span></h1>
+                        <p class="m-0 contact_subtitle">We'd love to hear from you</p>
+                    </div>
+                </div>
+            </div>
+            <!-- section heading -->
+            <!-- contact form -->
+            <form class="needs-validation" novalidate>
+                <div class="row justify-content-center align-self-center">
+
+                    <!-- <div class=" form-row"> -->
+                    <div class="col-md-4 mb-3">
+                        <div class="input-group contact_form_email mb-3">
+                            <!-- <div class="input-group-prepend contact_email_prepend_wrapper">
+                                <span class="input-group-text contact_email_prepend"><i
+                                        class="fas fa-paper-plane"></i></span>
+                            </div> -->
+                            <input type="email" autocomplete="email" required
+                                class="form-control contact_email contact_input" placeholder="Email">
+                            <div class="invalid-tooltip valid-tooltip-custom">
+                                Please enter a valid email!
+                            </div>
+                            <div class="valid-tooltip valid-tooltip-custom">
+                                Looks good!
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact_select_issue">
+                            <select class="custom-select contact_input" required>
+                                <option selected disabled value="">Select issue</option>
+                                <option>General</option>
+                                <option>Account</option>
+                                <option>Technical</option>
+                            </select>
+                            <div class="invalid-tooltip valid-tooltip-custom">
+                                Please select a issue.
+                            </div>
+                            <div class="valid-tooltip valid-tooltip-custom">
+                                Looks good!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 mb-3">
+
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+
+                    <!-- </div> -->
+                </div>
+
+            </form>
+            <script>
+                (function () {
+                    'use strict';
+                    window.addEventListener('load', function () {
+                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                        var forms = document.getElementsByClassName('needs-validation');
+                        // Loop over them and prevent submission
+                        var validation = Array.prototype.filter.call(forms, function (form) {
+                            form.addEventListener('submit', function (event) {
+                                if (form.checkValidity() === false) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                }
+                                form.classList.add('was-validated');
+                            }, false);
+                        });
+                    }, false);
+                })();
+            </script>
+
+            <!-- contact form -->
+
+        </div>
+    </section>
+    <!--/   contact -->
 
 
 
@@ -954,6 +1039,8 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script src="js/script.js"></script>
+
+
 
 </body>
 

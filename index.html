@@ -940,16 +940,12 @@
             </div>
             <!-- section heading -->
             <!-- contact form -->
-            <form class="needs-validation" novalidate>
-                <div class="row justify-content-center align-self-center">
+            <form class="needs-validation" method="" action="contact_successfull.html" novalidate>
+                <div class="row row_margin justify-content-between">
 
                     <!-- <div class=" form-row"> -->
-                    <div class="col-md-4 mb-3">
+                    <div class="col-md mb-3">
                         <div class="input-group contact_form_email mb-3">
-                            <!-- <div class="input-group-prepend contact_email_prepend_wrapper">
-                                <span class="input-group-text contact_email_prepend"><i
-                                        class="fas fa-paper-plane"></i></span>
-                            </div> -->
                             <input type="email" autocomplete="email" required
                                 class="form-control contact_email contact_input" placeholder="Email">
                             <div class="invalid-tooltip valid-tooltip-custom">
@@ -961,7 +957,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md mb-3">
                         <div class="contact_select_issue">
                             <select class="custom-select contact_input" required>
                                 <option selected disabled value="">Select issue</option>
@@ -977,40 +973,83 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2 mb-3">
-
-                        <button class="btn btn-primary" type="submit">Submit form</button>
+                    <div class="col-md mb-3">
+                        <div class="contact_form_btn_wrapper">
+                            <button class=" contact_form_btn" type="submit">Submit
+                                form</button>
+                        </div>
                     </div>
 
                     <!-- </div> -->
                 </div>
 
             </form>
-            <script>
-                (function () {
-                    'use strict';
-                    window.addEventListener('load', function () {
-                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                        var forms = document.getElementsByClassName('needs-validation');
-                        // Loop over them and prevent submission
-                        var validation = Array.prototype.filter.call(forms, function (form) {
-                            form.addEventListener('submit', function (event) {
-                                if (form.checkValidity() === false) {
-                                    event.preventDefault();
-                                    event.stopPropagation();
-                                }
-                                form.classList.add('was-validated');
-                            }, false);
-                        });
-                    }, false);
-                })();
-            </script>
-
             <!-- contact form -->
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 col-sm-6 text-center">
+                            <p class="contact_address"><span class="contact_icon"><i class="fas fa-at"></i></span>
+                                <span class="contact_address_txt"> 123-456-7890</span></p>
+                        </div>
+                        <div class="col-md-4 col-sm-6 text-center">
+                            <p class="contact_address"><span class="contact_icon"><i
+                                        class="fas fa-phone-volume"></i></span>
+                                <span class="contact_address_txt"> info@email.com</span></p>
+                        </div>
+                        <div class="col-md-4 col-sm-6 text-center">
+                            <p class="contact_address"><span class="contact_icon"><i class="far fa-compass"></i></span>
+                                <span class="contact_address_txt"> 123 New York, USA</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </section>
     <!--/   contact -->
+
+    <!-- map -->
+    <section class="map">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md">
+                    <div class="mapouter">
+                        <iframe width="100%" height="320"
+                            src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /   map -->
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-between">
+                <!-- app link -->
+                <div class="col-md">
+                    <div class="appstore_link">
+                        <a href="#" class="img-fluid" target="_blank"><img src="img/app_apple.png"
+                                alt="appstore button"></a>
+                        <a href="#" class="img-fluid" target="_blank"><img src="img/playstore.png"
+                                alt="playstore button"></a>
+                    </div>
+                </div>
+                <!-- app link -->
+                <div class="col-md">
+                    <ul class="list-inline"></ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!--/   footer -->
+
+
 
 
 
@@ -1043,5 +1082,25 @@
 
 
 </body>
+<script>
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>
+
 
 </html>

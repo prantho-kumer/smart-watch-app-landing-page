@@ -598,35 +598,27 @@ body {
 
 }
 
-.contact_email_prepend_wrapper {
+.contact_form_email:before {
+    content: url(../img/paper-plane.png);
     position: absolute;
-    top: 2px;
-    left: 0;
-    z-index: 1;
+    top: 12px;
+    left: 15px;
+    z-index: 999;
+    pointer-events: none;
 }
 
-.contact_email_prepend {
-
-    font-size: 30px;
-    color: #2186eb;
-    background-color: transparent;
-    border: none;
-}
 
 .contact_input {
     height: 50px;
     color: #2186eb;
-
     border: 2px solid #2186eb;
     border-radius: 50px !important;
     background-color: transparent;
     padding: 7px 16px;
-    min-width: 300px;
+    width: 100%;
 }
 
 .contact_email {
-    position: absolute;
-    z-index: 1;
     padding-left: 50px;
 }
 
@@ -653,7 +645,7 @@ body {
 }
 
 
-.contact_select_issue:after {
+.contact_select_issue::after {
     font-family: FontAwesome;
     content: '\f0dd';
     font-size: 28px;
@@ -669,6 +661,40 @@ body {
 }
 
 /* select style */
+.contact_form_btn {
+    min-width: 100%;
+    border: 2px solid white;
+    background-color: #2186eb;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    padding: 7px 16px;
+    transition: .5s;
+}
 
+.contact_form_btn:hover {
+    background-color: white;
+    color: #2186eb;
+    border-color: #2186eb !important;
+}
+
+.contact_address {
+
+    font-weight: 700;
+    color: #2186eb;
+}
+
+.contact_icon {
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.contact_address_txt {
+    margin-top: 5px;
+}
 
 /* contact */
+/* map */
+
+
+/* map */

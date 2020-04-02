@@ -698,3 +698,57 @@ body {
 
 
 /* map */
+/* footer */
+.footer {
+    padding: 20px 0;
+    background-color: #0967d2;
+}
+
+.footer_menu li a {
+    margin: 0;
+}
+
+.footer_menu {
+    text-align: right;
+    margin: 0 !important;
+}
+
+.footer_menu li a {
+    padding: 5px;
+    color: #ffffff;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
+
+}
+
+.footer_menu li {
+    margin: 0 !important;
+}
+
+.footer_menu li a:hover {
+    color: #d8ebfd;
+    border-bottom: 2px solid white;
+}
+
+.footer_copyright {
+    color: #ffffff !important;
+    margin: 0;
+}
+
+.footer_social_icon {
+    text-align: right;
+    margin: 0;
+}
+
+.footer_copyright a {
+    color: #b5d2f3;
+}
+
+.footer_social_icon li a {
+    color: white;
+    padding: 5px;
+
+}
+
+/* footer */
+/* go to top btn */

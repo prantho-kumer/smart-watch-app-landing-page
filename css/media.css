@@ -148,6 +148,16 @@
      }
 
      /* contact */
+     /* footer */
+     .appstore_link,
+     .footer_menu,
+     .footer_copyright,
+     .footer_social_icon {
+         text-align: center;
+     }
+
+     /* footer */
+
 
 
  }
@@ -278,6 +288,15 @@
      }
 
      /* contact */
+     /* footer */
+     .appstore_link,
+     .footer_menu,
+     .footer_copyright,
+     .footer_social_icon {
+         text-align: center;
+     }
+
+     /* footer */
 
 
 

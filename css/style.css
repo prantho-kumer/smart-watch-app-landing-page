@@ -165,15 +165,24 @@ body {
 /* banner end */
 /* go top */
 #go_top {
-    font-size: 35px;
-    padding: 5px 3px;
-    color: #2288eb;
+
     position: fixed;
     z-index: 99999;
     bottom: 40px;
     right: 50px;
     display: none;
+
     cursor: pointer;
+}
+
+#go_top i {
+    font-size: 35px;
+    color: #2288eb;
+    border-radius: 50%;
+}
+
+#go_top i:hover {
+    box-shadow: 0px 0px 15px #2288eb;
 }
 
 /* how it works start*/

@@ -56,6 +56,14 @@
          bottom: -60px;
      }
 
+     /* go top */
+     #go_top {
+         bottom: 10px;
+         right: 10px;
+     }
+
+     /* go top */
+
      /* how it works  start*/
      .step_content h1 {
          font-size: 27px;
@@ -224,6 +232,13 @@
          bottom: -60px;
      }
 
+     /* go top */
+     #go_top {
+         bottom: 10px;
+         right: 5px;
+     }
+
+     /* go top */
      /* how it works  start*/
      .how_works {
          padding-bottom: 20px;

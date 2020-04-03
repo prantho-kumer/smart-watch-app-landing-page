@@ -99,7 +99,20 @@ $(document).ready(function () {
     $("#collapseBtnFour").click(function () {
         $(".collapse_icon-4").toggleClass("rotate");
     });
+    // go top
+    $(window).scroll(function () {
+        if ($(this).scrollTop()) {
+            $('#go_top').fadeIn();
+        } else {
+            $('#go_top').fadeOut();
+        }
+    });
 
+    $("#go_top").click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 10);
+    });
 
 
 

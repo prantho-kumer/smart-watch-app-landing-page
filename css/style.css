@@ -163,6 +163,19 @@ body {
 
 /* slider end */
 /* banner end */
+/* go top */
+#go_top {
+    font-size: 35px;
+    padding: 5px 3px;
+    color: #2288eb;
+    position: fixed;
+    z-index: 99999;
+    bottom: 40px;
+    right: 50px;
+    display: none;
+    cursor: pointer;
+}
+
 /* how it works start*/
 .how_works {
     margin-top: -250px;

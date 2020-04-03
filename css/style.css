@@ -34,7 +34,7 @@ body {
     top: 0;
     z-index: 99999;
     padding-top: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 .logo_wrapper a {
-    width: 80px;
+    width: 70px;
 }
 
 .menu li a {

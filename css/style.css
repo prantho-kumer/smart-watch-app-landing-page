@@ -28,87 +28,7 @@ body {
     margin-top: 50px;
 }
 
-/* log in form */
-.log_in_container {
-    height: 100%;
-    align-content: center;
-    background-color: #2186eb;
-}
 
-.card {
-    padding: 20px;
-    min-height: 370px;
-    margin-top: auto;
-    margin-bottom: auto;
-    min-width: 400px;
-    background-color: rgba(0, 0, 0, 0.5) !important;
-}
-
-.social_icon span {
-    font-size: 60px;
-    margin-left: 10px;
-    color: #FFC312;
-}
-
-.social_icon span:hover {
-    color: white;
-    cursor: pointer;
-}
-
-.card-header h3 {
-    color: white;
-}
-
-.social_icon {
-    position: absolute;
-    right: 20px;
-    top: -45px;
-}
-
-.input-group-prepend span {
-    width: 50px;
-    background-color: #FFC312;
-    color: black;
-    border: 0 !important;
-}
-
-input:focus {
-    outline: 0 0 0 0 !important;
-    box-shadow: 0 0 0 0 !important;
-
-}
-
-.remember {
-    color: white;
-}
-
-.remember input {
-    width: 20px;
-    height: 20px;
-    margin-left: 15px;
-    margin-right: 5px;
-}
-
-.login_btn {
-    color: black;
-    background-color: #FFC312;
-    width: 100px;
-}
-
-.login_btn:hover {
-    color: black;
-    background-color: white;
-}
-
-.links {
-    color: white;
-}
-
-.links a {
-    margin-left: 4px;
-}
-
-/* log in form */
 
 /* header start */
 .header {
@@ -856,3 +776,94 @@ input:focus {
 
 /* footer */
 /* go to top btn */
+
+/* log in form */
+.log_in_container {
+    height: 100%;
+    align-content: center;
+    background: rgb(58, 231, 225);
+    background: linear-gradient(320deg, rgba(58, 231, 225, 1) 0%, rgba(33, 134, 235, 1) 100%);
+    border: none;
+}
+
+.log_in_card {
+    padding: 20px;
+    min-height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    min-width: 400px;
+    background-color: transparent;
+    border: none;
+}
+
+.log_in_card_header {
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+
+.social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+}
+
+.social_icon span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.card-header-custom h3 {
+    color: white;
+}
+
+.social_icon {
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.input-group-prepend-custom span {
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border: 0 !important;
+}
+
+.login_input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember {
+    color: white;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+
+
+.login_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.log_in_card_footer {
+    background-color: transparent;
+    border-top: 1px solid white;
+}
+
+.links {
+    color: white !important;
+}
+
+.links a {
+    margin-left: 4px;
+}
+
+/* log in form */
